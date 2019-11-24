@@ -1,0 +1,16 @@
+{
+  "name": "fall/beans",
+  "description": "Library containing classes to manage beans",
+  "require": {
+    "php": "^7.1",
+    "fall/core": "dev-master"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^7"
+  },
+  "autoload": {
+    "psr-4": {
+      "fall\\beans\\": "src"
+    }
+  }
+}
